@@ -1,0 +1,82 @@
+body{
+    margin:0px;
+    }
+p{
+    font-size: 18px;
+    color:aliceblue;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.bar{
+    height: 60px;
+    background-color: rgb(206, 65, 26);
+    
+
+}
+.buttons{
+    right:50px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameInput {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;  
+    margin-bottom: 10px; 
+}
+.emailInput {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px;*/
+    margin-left: 10px; 
+    margin-bottom: 10px; 
+}
+.phoneInput {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px;
+    margin-left: 50px;  */
+    margin-bottom: 10px; 
+}
+.hostel{
+    font:Arial;
+    display: flex;
+    justify-content: center;
+    margin-left: 245px;
+    margin-bottom: 10px;
+}
+
+.userInputRoom{
+    margin-left:20px;
+    align-items: center;
+    justify-content: center;
+}
+.BITSIDInput {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px; */
+    margin-left: 20px;  
+    margin-bottom: 10px; 
+}
+
+.merchSize{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    /* margin-left:100px; */
+}
+
+
+#PilaniBG{
+    align-items: center;
+    justify-content: center;
+}

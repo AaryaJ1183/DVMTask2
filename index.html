@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Signings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:rgb(13, 27, 42)";>
+        <script src="script.js"></script>
+    
+        <div class="bar">
+        </div>
+        
+
+        <div class="nameInput">
+            <p class="Name">Name: </p>
+            <input type="text" class="userInputName" id="userInputName" name="userInputName" placeholder="Eg: John Cena">
+        </div>        
+
+        <div class="emailInput">
+            <p>Email ID:</p>
+            <input type="email" class="userInputEmail" id="userInputEmail" name="userInputEmail" placeholder="Eg: IIT@bits-pilani.ac.in">
+        </div>
+
+        <div class="phoneInput">
+            <p>Phone No.:</p>
+            <input type="number" class="userInputPhone" id="userInputPhone" name="userInputPhone" placeholder="Eg: 911XXXXX02">
+        </div>
+
+        <div class="hostel">
+            <p>Hostel:</p>
+            <select id="userInputHostel" placeholder="Hostel">
+                <option value="" disabled selected>Choose Hostel / Bhawan</option>
+                <option value="Krishna Bhawan">Krishna Bhawan</option>
+                <option value="Gandhi Bhawan">Gandhi Bhawan</option>
+                <option value="Srinivas Ramanujan Bhawan">Srinivas Ramanujan Bhawan</option>
+                <option value="Meera Bhawan">Meera Bhawan</option>
+                <option value="Vishwakarma Bhawan">Vishwakarma Bhawan</option>
+            </select>
+            <input type="text" class="userInputRoom" id="userInputRoom" name="userInputRoom" placeholder="Room no." required>
+        </div> 
+        
+
+        <div class="BITSIDInput">
+            <p>BITS ID:</p>
+            <input type="text" class="userInputBITSID" id="userInputBITSID" name="userInputBITSID" placeholder="Eg: 2023A7PSXXXXP">
+        </div>
+
+        <div class="merchSize">
+            <form id="userInputSize">
+                <p>Size:</p>
+                <input type="radio" name="size" value="Small"> S
+                <input type="radio" name="size" value="Medium"> M
+                <input type="radio" name="size" value="Large"> L
+                <input type="radio" name="size" value="ExtraLarge"> XL
+                <input type="radio" name="size" value="ExtraExtraLarge"> XXL
+            </form>          
+        </div>
+
+
+     <form onsubmit= "return saveInput()" action="welcome.html">
+        <div>
+            <button type="submit" onclick="saveInput()" id="submitButton" class="submitButton">Submit</button>
+        </div>
+    </form>
+    
+    <form onsubmit="return resetInput()">
+           <button type="submit" onclick="resetInput()" id="resetButton" class="resetButton">Reset</button>
+    </form>
+            
+
+</body>
+</html>
